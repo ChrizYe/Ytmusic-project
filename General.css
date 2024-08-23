@@ -1,0 +1,13 @@
+header{
+    padding-left: 340px;
+}
+
+body{
+    background-color: black;
+    font-family: Roboto, Arial;
+    padding-left: 270px;
+    padding-bottom: 1000px;
+    padding-top: 60px;
+    color: white;
+    min-width: 442px;
+}

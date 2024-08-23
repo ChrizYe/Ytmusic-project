@@ -1,0 +1,73 @@
+.first-grid{
+    margin-top: -15px;
+    margin-bottom: 20px;
+    background-color:transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    max-width: 1266px;
+  }
+  
+  
+  .first-grid img{
+    height: 100%;
+    border-radius: 5px;
+    
+  }
+  
+  
+  #kendrick img{
+    height: 190px;
+    width: 190px;
+    border-radius: 91px;
+  }
+  
+  #kdot-middle p{
+    text-align: center;
+}
+
+.song-info{
+  max-width: 190px;
+  font-weight: 700;
+}
+
+.thumbnail{
+  height: 190px;
+  position: relative;
+  max-width: 190px;
+  z-index: 12;
+
+  &:hover img{
+    opacity: 0.6;
+  }
+}
+
+.play-thumbnail{
+  z-index: 2000;
+  position: absolute;
+  height: 36px;
+  bottom: 75px;
+  right: 75px;
+}
+
+
+#thin-words{
+    font-weight: 400;
+}
+
+.dots{
+  z-index: 1000000;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+}
+
+.thumbnail:hover .dots,
+#thin-words:hover,
+.thumbnail:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 1;
+}
