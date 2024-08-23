@@ -1,0 +1,140 @@
+.big-side-bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 240px;
+  z-index: 100;
+  border-right: solid;
+  background-color: black;
+  border-right-color: rgb(41, 41, 41);
+  border-right-width: 1px;
+}
+
+.upper-content{
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding-left: 20px;
+}
+
+.hamburger-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  height: 34px;
+  width: 34px;
+}
+
+.hamburger-icon img{
+  height: 15px;
+}
+
+.YTM-icon{
+  height: 25px;
+}
+.YTM-icon img{
+  height: 100%;
+}
+.YTM-icon:hover{
+  cursor: pointer;
+}
+
+.hamburger-icon:hover{
+  background-color: rgb(255, 255, 255,0.3);
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+.music-section{
+  width: 200px;
+  height: 172px;
+  border-bottom: solid;
+  border-bottom-color:rgb(41, 41, 41);
+  border-width: 1px;
+}
+
+.big-bar-options{
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+  height: 48px;
+  width: 210px;
+}
+
+.big-bar-options:hover{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(29, 29, 29);
+}
+
+.big-bar-options img{
+  margin-right: 20px;
+}
+
+.new-playlist{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255,0.1);
+  font-weight: 500;
+  font-size: 15px;
+  height: 36px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.new-playlist img{
+  margin-right: 10px;
+}
+
+.new-playlist:hover{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255,0.2);
+}
+
+.playlist{
+  height: 48px;
+  padding: 4px 16px;
+  position: relative;
+  width: 190px;
+  margin-bottom: 7px;
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.playlist:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(29, 29, 29);
+}
+
+.playlist:hover img{
+  opacity: 1;
+}
+
+.playlist img{
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  opacity: 0;
+}
+
+.p-title{
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.p-author{
+  font-size: 12px;
+}
+
+
+
+

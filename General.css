@@ -1,0 +1,15 @@
+header{
+    padding-left: 340px;
+}
+
+body{
+    background-color: black;
+    /* background-color: rgb(6, 20, 29); */
+    font-family: Roboto, Arial;
+    padding-left: 340px;
+    padding-bottom: 1000px;
+    padding-top: 60px;
+    color: white;
+    min-width: 442px;
+
+}
